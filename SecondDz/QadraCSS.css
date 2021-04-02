@@ -1,0 +1,79 @@
+.brd {
+   	border: 4px double black; /* Параметры границы */
+   	background: ; /* Цвет фона */
+   	padding: 10px; /* Поля вокруг текста */
+   	width: 850px;
+   	border-radius: 10px;
+   	margin-top: 10px;
+      font-size: 200%;
+   }
+
+   body {
+   	align-items: left;
+   	justify-content: center;
+   	background: white;
+   	font-family: Georgia;
+   	background-image: url(panda.jpg);
+      background-size: 100%;
+   }
+   h1 {
+   	font-size: 100px;
+   	font-weight: normal;
+   	text-shadow: -1px -1px #FFF,
+   	-2px -2px #FFF,
+   	-1px 1px #FFF,
+   	-2px 2px #FFF,
+   	1px 1px #FFF,
+   	2px 2px #FFF,
+   	1px -1px #FFF,
+   	2px -2px #FFF,
+   	-3px -3px 2px #BBB,
+   	-3px 3px 2px #BBB,
+   	3px 3px 2px #BBB,
+   	3px -3px 2px #BBB;
+   	color: steelblue;
+   	transition: ;
+   }
+   form {
+   	text-shadow:
+   	1px 1px 0 black,
+   	1px -1px 0 black,
+   	-1px 1px 0 black,
+   	-1px -1px 0 black;
+   	color: white;
+   	font-size: 600%;
+   }
+   input{
+   	font-size: 120%;
+   }
+   .dws{
+   	color: #fff; /* цвет текста */
+   	text-decoration: none; /* убирать подчёркивание у ссылок */
+   	user-select: none; /* убирать выделение текста */
+   	background: rgb(212,75,56); /* фон кнопки */
+   	padding: .7em 1.5em; /* отступ от текста */
+   	outline: none; /* убирать контур в Mozilla */
+   }
+   .brdList{
+   	width: 200px;	height: 200px; /* Размеры */
+   	background: #fc0; /* Цвет фона */
+   	outline: 2px solid #000; /* Чёрная рамка */
+   	border: 3px solid #fff; /* Белая рамка */
+   	border-radius: 10px; /* Радиус скругления */
+   }
+   table {
+   border-collapse: collapse;
+   empty-cells: show;
+   margin-left: 20px;
+   align-content: left;
+   font-size: 200%;
+}
+   td {
+       width: 850px; height: 50px;
+   }
+   .greenText {
+      color: green;
+   }
+   .blueText{
+      color: blue;
+   }
